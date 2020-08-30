@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+body { 
+  background: url(eagle.jpg) no-repeat center center fixed; 
+  background-size:cover;
+}
+h1{
+    display:flex;
+    font-size:3rem;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+        font-size:5vw;
+        padding:0;
+        margin:0;
+}
+.btn{
+    color:white;
+    background-color: #F8C471;
+    padding: 20px;
+    font-weight: bold;
+    font-size:20px; 
+    border-radius:300px;
+    font-variant: small-caps;
+    border-color: #F8C471;
+}
+.btn:hover{
+    background-color: #F8C471;
+    border-width:4px;
+    color:antiquewhite;
+}
+.container{
+    background-color: transparent;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.div2{
+    padding:20px;
+}
+
+
